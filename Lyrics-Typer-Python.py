@@ -26,6 +26,5 @@ def display_lyrics_with_typing_effect(lyrics, delays, char_delay):
         print()  # Move to the next line after the whole sentence is displayed
         time.sleep(delays[i])  # Wait for the specified time before proceeding to the next line
 
-input("KK ")
 # Call a function with predefined lyrics, delay, and typing speed
 display_lyrics_with_typing_effect(lyrics, delays, char_delay)
